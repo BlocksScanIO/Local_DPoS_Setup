@@ -12,7 +12,7 @@ export $(cat .env | xargs)
 Bin_NAME=XDC
 
 WORK_DIR=$PWD
-PROJECT_DIR="/root/XinFin/XDPoSChain"
+PROJECT_DIR="/root/workspace/XDPoSChain"
 cd $PROJECT_DIR && make XDC && make bootnode
 cd $WORK_DIR
 
